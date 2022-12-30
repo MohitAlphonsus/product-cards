@@ -1,0 +1,42 @@
+:root {
+	--color-primary-dark-1: hsl(158, 36%, 37%);
+	--color-primary-light-1: hsl(30, 38%, 92%);
+
+	--color-dark-blue-: hsl(212, 21%, 14%);
+	--color-dark-gray-blue-: hsl(228, 12%, 48%);
+
+	--color-white: hsl(0, 0%, 100%);
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+img {
+	display: block;
+	height: 100%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* UTILITY CLASSES */
+.container {
+	max-width: 114rem;
+	margin: 0 auto;
+}
